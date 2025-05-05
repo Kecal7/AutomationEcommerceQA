@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Selenium logy nebo temporary files (pokud nějaké vzniknou)
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files (nepovinné, ale doporučené)
+.vscode/
+.idea/
+*.swp
+
+# Virtualenv (pokud používáš)
+venv/
+env/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code launch config
+*.code-workspace
